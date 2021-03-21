@@ -28,7 +28,7 @@ while True:
     file1.write(s3)
 
     file1.close()
-    file1 = open(r"C:\Users\phosp\hotkeyb.ahk", "r")
+    file1 = open(r"hotkeyb.ahk", "r")
     print(file1.read())
     file1.close()
 window.close()
