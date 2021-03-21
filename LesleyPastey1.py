@@ -13,7 +13,7 @@ while True:
     if event == sg.WIN_CLOSED or event == 'Cancel':
         break
     print ('you entered', values[1])
-    file1 = open(r"C:\Users\phosp\hotkeyb.ahk", "w+")
+    file1 = open(r"hotkeyb.ahk", "w+")
     L0 = ["^"]
     L1 = values[0]
     L2 = [":: \n", "Send, "]
